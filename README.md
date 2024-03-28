@@ -1,4 +1,4 @@
-# PEFT-of-LLMs-towards-Logical-Reasoning-from-Images
+# PEFT-of-LLMs-vs-RAG-Enhanced-LLMs-for-ASAG
 This is the working repository for my CS6120 Natural Language Processing Project.
 
 ### Team
@@ -7,8 +7,13 @@ This is the working repository for my CS6120 Natural Language Processing Project
 - Prabhleenkaur Bindra - 002781738
 - Maria Anson - 002931419
 
-The goal of this project is to implement a Visual Question Answering architecture that incorporates an LLM Adapter finetuned on Q-LoRa parameters for a domain of Recipes. Using a domain of Logical Reasoning question and answers, the proposed model would posses interactive capabilities to perform Logical Reasoning on the images.
+The goal of this project is to implement an ASAG (Automated Short Answer Grading) architecture that compares the effectivenness of two methods that aim to be used for grading short computer science and coding assignments by a specified rubric, and be open for user interaction.
 
-### Project Files
-- "NLP_Project_Abstract.pdf" - contains a short proposal along with the title submitted for the project. [Status] - Project Approved
-- Project Proposal - _due Feb 20th 2024_
+The proposed methods to be compared include 
+- Semi-Instruction fine-tuning with PEFT/ Q-Lora of an LLM
+- RAG enhanced LLMs
+
+As mentioned previously, using a domain of course rubrics, questions and answers, the proposed model would posses interactive capabilities to perform Logical Reasoning and allow the user to receive feedback on their assignments. By specifying a rubric and opening up the LLM for interaction, we are both harnessing the knowledge of LLMs to provide constructive feedback, but are also avoiding any catastrophic forgetting, thereby making this scalable for applications like:
+- Organization Knowledge Transfer (KT)
+- Automated Test / Resume / Essay Evaluation
+- Recommendations on how to improve prompts, content, etc.
