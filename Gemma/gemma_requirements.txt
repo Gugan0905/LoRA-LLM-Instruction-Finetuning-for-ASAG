@@ -1,0 +1,16 @@
+transformers
+bitsandbytes
+accelerate
+datasets
+huggingface_hub
+peft
+trl
+evaluate
+wandb
+pandas
+torch
+scikit-learn
+tqdm
+numpy
+trl
+timm

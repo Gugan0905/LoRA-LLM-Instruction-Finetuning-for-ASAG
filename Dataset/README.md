@@ -4,7 +4,7 @@ This project employs a combined dataset from two different sources of ASAG data.
 1. 'expand.txt'
 2. 'mohler_joined.csv'
 
-Sources for both files can be found in the preprocessing notebook 'ASAG_Dataset_processing.ipynb'
+Sources for both files can be found in the preprocessing notebook 'ASAG_EDA_Dataset_processing.ipynb'
 
 This was performed to obtain a large enough dataset with varied samples.
 

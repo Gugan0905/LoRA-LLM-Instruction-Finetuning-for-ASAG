@@ -1,0 +1,15 @@
+nltk
+datasets
+transformers[torch]
+tokenizers
+evaluate
+rouge_score
+sentencepiece
+huggingface_hub
+peft
+numpy
+pandas
+scikit-learn
+pytesseract
+fuzzywuzzy
+PIL
