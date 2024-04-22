@@ -41,8 +41,8 @@ In order of execution during project development:
 - ./BERT-Classifier/ contains evaluation code
 - ./FlanT5/ contains training and evaluation code, and model files
 - ./Gemma/ contains training and evaluation code, and saved model links
-- "CS 6120 NLP final presentation.pptx" contains the final presentation of the results
-- "CS 6120 NLP final report.pptx" contains the overall report for this project
+- "CS 6120 NLP final presentation.pdf" contains the final presentation of the results
+- "CS 6120 NLP final report.pdf" contains the overall report for this project
 
 
 Note: The respective packages to install are placed within each directory in its own requirements file.
